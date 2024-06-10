@@ -1,0 +1,158 @@
+*{
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background: linear-gradient(#6CFBB7, #22C1C3);
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    color: white;
+}
+.logoblock{
+    display: flex;
+}
+.logo{
+    height: 80px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+nav{
+    /* width: 20%; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+ul{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    margin-right: 20%;
+}
+li{
+    list-style: none;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.textbar{
+    background-color: #22C1C3;
+    height: 35px;
+    border: thick double white;
+}
+section{
+    margin: auto;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.block1{
+    background: linear-gradient(#59A4ED, #BC8196);
+    display: flex;
+
+}
+.imgjapon{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.imgthai{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-right: 10%;
+}
+.imginde{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.block2{
+    background: linear-gradient(#4689C2, #60E1C2);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.block3{
+    background: linear-gradient(#5C90B5,#DD841C);
+    display: flex;
+}
+
+.texte{
+    color: white;
+    margin: 10% 5% 10% 5%;
+}
+
+footer{
+    background: linear-gradient(#28C6C2, #6DFCB7);
+    width: 100%;
+    margin-top: 2%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textfooter{
+    color: white;
+}
+.icofooter{
+    color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .block2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imgjapon{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 95px;
+    }
+    .imgthai{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 95px;
+        margin-bottom: 30px;
+    }
+    .imginde{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 95px;
+        
+    }
+    
+}
